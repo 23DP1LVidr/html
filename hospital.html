@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-veselība - Tiešsaistes pieraksts</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f9fb;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #009688;
+            color: white;
+            padding: 15px 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        nav {
+            flex: 1;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px auto;
+            max-width: 1100px;
+            padding: 0 20px;
+        }
+
+        section {
+            flex: 3;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.08);
+        }
+
+        aside {
+            flex: 1;
+            background-color: #e0f2f1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.08);
+        }
+
+        aside a{
+            text-decoration: none;
+            color: black;
+        }
+
+        aside a:hover{
+            text-decoration: underline;
+            color: black;
+            
+        }
+
+        h1, h2, h3 {
+            color: #004d40;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 800px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+                margin-top: 10px;
+            }
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>E-veselība</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Par mums</a>
+            <a href="#contact">Kontakti</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Laipni lūgti E-veselībā!</h1>
+            <p>Šeit jūs varat ērti pierakstīties uz medicīniskām procedūrām, konsultācijām un saņemt profesionālu palīdzību tiešsaistē.</p>
+            <h2>Pierakstieties online</h2>
+            <p>Aizpildiet pieteikuma formu un izvēlieties jums ērtāko laiku vizītei.</p>
+            <img src="https://qtxasset.com/quartz/qcloud5/media/image/fiercehealthcare/1523548174/hospitalsign1.jpg/hospitalsign1.jpg?VersionId=9Pp.2KPdxZ6usIoQ.n.mgLam.bC7GsPv" alt="Iestādes attēls">
+        </section>
+
+        <aside>
+            <h3>Saistītie raksti</h3>
+            <ul>
+                <li><a href="#">Veselīgs dzīvesveids</a></li>
+                <li><a href="#">Profilaktiskās pārbaudes</a></li>
+                <li><a href="#">E-veselības priekšrocības</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 E-veselība. Visas tiesības aizsargātas.</p>
+        <p>Seko mums: 
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
